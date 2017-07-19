@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<title>To-DO Task</title>
+</head>
+<body class="text-center">
+<h1 class=" jumbotron">To-Do Task</h1>
+<div class="container-fluid" style="margin:20px">
+	
+	<input type="text" id="task" class="form-control" placeholder="enter task name">
+	<input type ="date" id="date" class="form-control" style="margin-top: 20px" />
+		<div class="text-center" style="margin-top: 20px">
+	<button class="btn btn-success" onclick="addTask(task.value,date.value)" >Add Task</button>
+	</div>
+	
+	</div>
+
+	<div class="">
+		<ul class="list-group" id="taskList">
+		</ul>
+	</div>
+</body>
+	<script src="app.js"></script>
+
+</html>
